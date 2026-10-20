@@ -21,14 +21,17 @@ This repository contains solutions for Lab #4b. The lab focuses on working with 
 ### Instructions
 1. Clone this repository:
    ```bash
-   git clone https://github.com/lingnaa/lingnaa-bic21203-lab4b-json-jquery.git
+   git clone https://github.com/lingnaa/bic21203-lab4b-json-jquery.git
    ```
 2. Place the `Lab4b` folder under your local server root (e.g., `C:/xampp/htdocs/WebDev/Lab4b/`).
-3. Start Apache or run a local server in the directory:
+3. Start Apache from the XAMPP Control Panel, then open in your web browser:
+   - `http://localhost/WebDev/Lab4b/books.html`
+   - `http://localhost/WebDev/Lab4b/jquery-dom.html`
+4. Alternatively, run a local server inside the `Lab4b` folder:
    ```bash
    python -m http.server 8000
    ```
-4. Open `http://localhost:8000/books.html` and `http://localhost:8000/jquery-dom.html` in your web browser.
+   and open `http://localhost:8000/books.html` and `http://localhost:8000/jquery-dom.html`.
 
 
 
