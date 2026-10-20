@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4b - jQuery DOM Manipulation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+            color: #333;
+        }
+        #myElement {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+        #myDIV {
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+        .myStyle {
+            background-color: coral;
+            padding: 16px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+    </style>
+    <!-- Include jQuery 4.0.0 official full-build CDN (not slim) -->
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+    <script src="jquery-dom.js" defer></script>
+</head>
+<body>
+    <div id="myElement">Original Text</div>
+    <div id="myDIV"><p>I am a myDIV.</p></div>
+    <button id="myButton" type="button">Click me</button>
+</body>
+</html>
